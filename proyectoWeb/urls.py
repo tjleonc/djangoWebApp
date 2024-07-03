@@ -21,4 +21,7 @@ from proyectoWebApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('proyectoWebApp.urls')),
+    path('servicios/', include('serviciosApp.urls')),
+    path('contacto/', include('contacto.urls')),
+    path('tienda/', include('tienda.urls')),
 ]

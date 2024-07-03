@@ -80,12 +80,12 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(24, 64, 8);
+  background-color: rgb(0, 0, 0);
   font-family: 'Raleway';
 }
 
 #mainNav .navbar-brand {
-  color: #ffffff;
+  color: #fffefe;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -134,7 +134,7 @@ p {
     left: 600;
     width: 60%;
     margin-top: 3rem;
-    background-color: rgba(24, 64, 8);
+    background-color: rgb(0, 0, 0);
     color: cornsilk;
     position: absolute;
   }
@@ -162,7 +162,7 @@ p {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(24, 64, 8);
+  background-color: rgb(0, 0, 0);
   color: cornsilk;
 }
 
@@ -229,7 +229,7 @@ p {
 }
 
 .footer {
-   background-color: rgba(24, 64, 8, 0.8);
+   background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -276,4 +276,24 @@ ul.errorlist{
   padding-top: .75rem;
   font-style: italic;
   color: red;
+}
+
+.formularioContainer{
+  background-color: black;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.boton{
+  text-align: center;
+  margin-top: 10px; 
+}
+
+.button-send{
+  padding: 5px 15px;
 }
